@@ -1,15 +1,21 @@
 {
   "name": "@bidego/my-first-npm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
+  "description": "This is my first npm package.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bidego/my-first-npm.git"
   },
-  "repository": "https://github.com/bidego/my-first-npm.git"
+  "bugs": {
+    "url": "https://github.com/bidego/my-first-npm/issues"
+  },
+  "homepage": "https://github.com/bidego/my-first-npm#readme",
+  "devDependencies": {},
+  "dependencies": {}
 }
